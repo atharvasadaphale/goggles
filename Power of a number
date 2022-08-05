@@ -1,0 +1,21 @@
+import java.util.*;
+import java.lang.*;
+import java.io.*;
+
+public class Main
+{
+	public static void main (String[] args) throws java.lang.Exception
+	{
+		Scanner sc = new Scanner(System.in);
+           int a=sc.nextInt();
+            int b=sc.nextInt();
+     int power;
+      int c=1;
+            
+            for(power=b; b!=0; b--)
+              {
+                c=c*a;
+              }
+      System.out.print(c);
+    }     
+ }
