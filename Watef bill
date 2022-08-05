@@ -1,0 +1,28 @@
+import java.util.*;
+import java.lang.*;
+import java.io.*;
+
+public class Main
+{
+	public static void main (String[] args) throws java.lang.Exception
+	{
+    Scanner sc = new Scanner (System.in);
+    int litres =sc.nextInt();
+    int cost=0;
+    if (litres<=100)
+    {
+       cost=litres*15; 
+        System.out.print(cost); 
+    }
+   else if (litres>100 && litres<=200)
+    {
+       cost=litres*14+100; 
+        System.out.print(cost); 
+    }
+    else if (litres>200 && litres<=300)
+    {
+       cost=litres*12+500; 
+        System.out.print(cost); 
+    }
+}
+}
